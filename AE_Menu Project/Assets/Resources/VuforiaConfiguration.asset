@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: ATN61un/////AAABmUKtb4iKoEdfsjw3xt73pj9PNSKhdd6Pk2erUxacR3vfghOB0tZLGxz3ZffXNDR9n2e8+4JsWaTVOleuSdJ7OQ7GCDQxkoTwmg2htQrLV+PSIJ0aWf95G6YwUDNIwzzP0iOGz8nTIh72w4NKl4l+Sba3yjvoR0mWlbcwIesxDiIELX9H+9DeA21sNHtslVRYZG0GlcJDnM+5ni9Xyz4OkjggwFR08RheFfEEqNXsfdO5SWjeNF8F3aZ2VzikldpRDCtmcEuoIm50F2qcLHAZZSXfCSMiXVdA4YoM4F6VbtHk3t54BUhDZ73Hx4Zh3agV2i2BqLrgIVCIEw7t8YVArI+xbeBhgzjFLILD/++b3q35
+    ufoLicenseKey: QVNTMVFGbi8vLy8vQUFBQUtOMDFNZUY2VlUxRGdrOE4wVWhuMVlKY29MSERMUmt3dFhPcVlLMC85eGh3eEIrK3V0U252Mzl1YlBRZEpaOGR3OVh3dXpxencyaElVdlJzR3dZck5jTEdZZmVsbDlJcS9PSTQ4d0liM3QxUWxqNVl1Tjh3MHk5TGhnQ1Y2SUQ2ZTliVmpCczI5cWdrRGpEVThuaW9uSUtiYVZMUTRObDd3T1VVdnRwOGRSTjJ0U0xRMGFsaVMxY2k3OGFXUFkyN0REN3NkbW1jQURxRWxPOFgycHpERS9MejY5SEE0S0hwWHRpUC9hZDNBTFJPdU5RK01ZbU45R0h6V0tlcmVIOENVLzVOMGpBakxIVWd1aVNsTG5RVStLbUlnbGZwTm94aE5xKzdJRXowTXJuZTZEZXJyS2Jsb0lDZVFaeExaWnNvVGJVM0xrMGQ0d0ZDVVFteHBjMktSVnlpNFVLaklNY2FlUXltZHd6aEViOWo=
+    delayedInitialization: 1
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    maxSimultaneousObjectTargets: 1
+    useDelayedLoadingObjectTargets: 0
+    cameraDirection: 0
+    mirrorVideoBackground: 0
+    version: 8.0.10
+    eulaAcceptedVersions: '{"Values":["0.0","8.0"]}'
+  digitalEyewear:
+    cameraOffset: 0.06
+    distortionRenderingLayer: 31
+    eyewearType: 0
+    stereoFramework: 0
+    seeThroughConfiguration: 0
+    viewerName: 
+    viewerManufacturer: 
+    useCustomViewer: 0
+    customViewer:
+      Version: 0
+      Name: 
+      Manufacturer: 
+      ButtonType: 0
+      ScreenToLensDistance: 0
+      InterLensDistance: 0
+      TrayAlignment: 0
+      LensCenterToTrayDistance: 0
+      DistortionCoefficients: {x: 0, y: 0}
+      FieldOfView: {x: 0, y: 0, z: 0, w: 0}
+      ContainsMagnet: 0
+  videoBackground:
+    clippingMode: 0
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoInitTracker: 0
+    autoStartTracker: 0
+    trackingMode: 1
+    posePrediction: 0
+    modelCorrectionMode: 0
+    modelTransformEnabled: 0
+    modelTransform: {x: 0, y: 0.1, z: -0.1}
+  smartTerrain:
+    autoInitTracker: 0
+    autoStartTracker: 0
+  webcam:
+    deviceNameSetInEditor: 
+    flipHorizontally: 0
+    turnOffWebCam: 0
+    renderTextureLayer: 30
