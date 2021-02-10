@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OnefingerTouch : MonoBehaviour {
+public class RotarObjetos : MonoBehaviour {
     public float rotationSpeed = 0.1f;
     private  Vector3 lastPos;
 
