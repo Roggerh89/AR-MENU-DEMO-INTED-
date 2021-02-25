@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 924f7877ac7328a448876efedfd06251
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Slackey
+  fontNames:
+  - Slackey
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d4e698400efd72b4ead4365610309ccf, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
