@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.ptc.vuforia.engine": "file:C:/Users/Rogger/Desktop/com.ptc.vuforia.engine-9.6.3/package",
     "com.unity.ads": "2.0.8",
     "com.unity.analytics": "3.2.2",
     "com.unity.collab-proxy": "1.2.15",
